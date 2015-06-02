@@ -30,6 +30,18 @@ header
     height: 200px;
     display: inline-block;
 }
+.titre
+{
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 32%;
+    font-family: "Luckiest Guy",cursive;
+    font-size: 48px;
+    color: #5382A5;
+    text-shadow: 1px 1px #000, -1px 1px #000, -1px -1px #000, 1px -1px #000;
+}
 #corps
 {
     color:rgb(48,48,48);
@@ -54,6 +66,10 @@ header
     margin:auto;
     border-radius:10px;
     text-align:center;
+}
+textArea
+{
+    height: 400px;
 }
 /* Je suprime l'afichage des lien par default */
 a:link,a:visited,a:hover, a:focus, a:active {color: black;}

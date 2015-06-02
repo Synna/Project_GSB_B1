@@ -15,12 +15,12 @@ try {
     </head>
     <body>
         <header>
-            <img src="../resource/gsb.png" alt="Logo GSB" height="150"/>
+            <a href="../vue/accueiladmin.php"><img src="../resource/gsb.png" alt="Logo GSB" height="150"/></a>
             <h1>Gérer les Comptes utilisateurs</h1>
         </header>
         <div id="corps">
             <div>
-                <form action="../resource/ajoutecompte.php" method="post">
+                <form action="../application/ajoutecompte.php" method="post">
                     <fieldset>
                     <legend>Ajouter un compte</legend>
                     Identifiant : <input type="text" name="login"><br>
@@ -34,8 +34,8 @@ try {
                 </form>
             </div>
             <br><br><br>
-            <div>supprimercompte
-                <form method="post" action="../resource/supprimercompte.php">
+            <div>supprimer compte
+                <form method="post" action="../application/supprimercompte.php">
                     <fieldset>
                     <legend>Supprimer un compte</legend>
                     Login : 

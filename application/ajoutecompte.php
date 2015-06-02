@@ -14,4 +14,4 @@ $req->bindParam((':nom'), $_POST['nom']);
 $req->bindParam((':prenom'), $_POST['prenom']);
 $req->bindParam((':poste'), $_POST['poste']);
 $req->execute();
-header('Location: ../application/gerercompte.php');
+header('Location: ../vue/gerercompte.php');

@@ -2,27 +2,27 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link href="../css/action.css" rel="stylesheet" />
+        <link href="../css/accueil.css" rel="stylesheet" />
         <title>Accueil visiteur</title>
     </head>
     <body>
         <header>
-            <img src="../resource/gsb.png" alt="Logo GSB" height="150"/>
+            <a href="../resource/deco.php"><img src="../resource/gsb.png" alt="Logo GSB" height="150"/></a>
             <h1>Accueil visiteur</h1>
         </header>
     <center>
         <div id="categorie">
-            <a href="../application/ajoutecompterendu.php">
+            <a href="../vue/ajoutecompterendu.php">
                 <div class="bouton">
                     <p>Créer un compte<br> rendu</p>
                 </div>
             </a>
-            <a href="visualiserrendu.php">
+            <a href="../vue/visualiserrendu.php">
                 <div class="bouton">
                     <p>Visualiser un<br> compte rendu</p>
                 </div>
             </a>
-            <a href="../application/modifrendu.php">
+            <a href="../vue/modifrendu.php">
                 <div class="bouton">
                     <p>Modifier un<br> compte rendu</p>
                 </div>

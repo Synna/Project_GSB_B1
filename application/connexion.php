@@ -18,9 +18,9 @@ try {
         $_SESSION['id'] = $data['id'];
         $query->CloseCursor();
         if ($_SESSION['poste'] == 'Employe') {
-            header('location: ../application/accueilvisiteur.php');
+            header('location: ../vue/accueilvisiteur.php');
         } else if ($_SESSION['poste'] == 'Admin') {
-            header('location: ../application/accueiladmin.php');
+            header('location: ../vue/accueiladmin.php');
         }
     } else {
         $message = 'Le pseudo ou le mot de passe sont incorrect';

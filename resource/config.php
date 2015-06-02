@@ -1,7 +1,7 @@
 ﻿<?php
 class config {
-    const SERVERNAME="localhost";
-    const DBNAME ="gsbagarrec";
-    const USER="root";
+    const SERVERNAME="";
+    const DBNAME ="";
+    const USER="";
     const PASSWORD="";
 }

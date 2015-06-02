@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 require_once '../resource/config.php';
 try {
@@ -10,4 +9,4 @@ try {
 $req = $pdo->prepare("DELETE FROM `user` WHERE id=:id");
 $req->bindParam((':id'), $_POST['id']);
 $req->execute();
-header('Location: ../application/gerercompte.php');
+header('Location: ../vue/gerercompte.php');

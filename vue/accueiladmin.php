@@ -7,12 +7,12 @@
     </head>
     <body>
         <header>
-            <img src="../resource/gsb.png" alt="Logo GSB" height="150"/>
+            <a href="../resource/deco.php"><img src="../resource/gsb.png" alt="Logo GSB" height="150"/></a>
             <h1>Accueil Admin</h1>
         </header>
     <center>
         <div id="categorie">
-            <a href="../application/gerercompte.php">
+            <a href="../vue/gerercompte.php">
                 <div class="bouton">
                     <p>Gérer les compte<br> utilisateur</p>
                 </div>

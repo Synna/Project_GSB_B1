@@ -16,8 +16,8 @@ try {
     </head>
     <body>
         <header>
-            <h1>Visualiser un compte rendu</h1>
-            <a href="../application/accueilvisiteur.php"><img src="../resource/gsb.png" alt="Logo GSB" height="150"/></a>
+            <h1 class="titre">Visualiser un compte rendu</h1>
+            <a href="../vue/accueilvisiteur.php"><img src="../resource/gsb.png" alt="Logo GSB" height="150"/></a>
         </header>
         <div id="rendu">
             <form method="post" action="visualiserrendu.php">
