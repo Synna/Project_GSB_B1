@@ -1,0 +1,42 @@
+﻿body {
+    margin:0px;
+    background-color: rgb(224, 224, 224);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#bouton
+{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(83, 130, 165);
+}
+#connexion
+{
+    width: 40%;
+    text-align: center;
+    margin-left: 28%;
+}
+/*Correction de bug mineur*/
+footer
+{
+    text-align: center;
+}
+header
+{
+    width: auto;
+    height: 200px;
+    display: inline-block;
+}
+h1
+{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    font-family: "Luckiest Guy",cursive;
+    font-size: 48px;
+    color: #5382A5;
+    text-shadow: 1px 1px #000, -1px 1px #000, -1px -1px #000, 1px -1px #000;
+}
+/* Je suprime l'afichage des lien par default */
+a:link,a:visited,a:hover, a:focus, a:active {color: black;}
+a:link,a:visited,a:hover, a:focus, a:active{text-decoration:none}
